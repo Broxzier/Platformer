@@ -1,2 +1,2 @@
 # Platformer
-A 2D platformer in OpenGL with SFML.
+Just a simple platformer to see how SDL works, as well as designing a architecture to allow easy changes to the gameplay.
