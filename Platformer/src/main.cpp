@@ -1,9 +1,9 @@
 #include "platformer.h"
 
-int main() {
+int main(int argc, char* argv[]) {
 	Program *game;
 
-	game = new Platformer();
+	game = new Platformer(argc, argv);
 	game->Start();
 	game->Run();
 	game->Close();
