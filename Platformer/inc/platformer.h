@@ -13,7 +13,8 @@ extern bool g_LogVerbose;
 
 #include "program.h"
 
-class Platformer : public Program {
+class Platformer : public Program
+{
 public:
 	Platformer(int argc, char* argv[]);
 	virtual ~Platformer();

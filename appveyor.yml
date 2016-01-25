@@ -1,0 +1,8 @@
+version: 0.0.0.{build}
+os: Previous Visual Studio 2015
+build:
+- project: ./Platformer/Platformer.sln
+artifacts:
+#- path: ./Platformer/bin/Platformer.exe
+- path: Platformer.zip
+  name: Platformer

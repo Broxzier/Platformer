@@ -8,7 +8,7 @@ Platformer::Platformer(int argc, char* argv[])
 {
 	for (int i = 0; i < argc; i++)
 	{
-		if (strcmp(argv[i], "-verbose") == 0)
+		if (std::strcmp(argv[i], "-verbose") == 0)
 		{
 			// Enable verbose logging
 			g_LogVerbose = true;
